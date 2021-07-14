@@ -71,6 +71,11 @@ nav{
     height: 230px;
     
 }
+.title h1:hover{
+    transform: scale(1.2) skewX(20deg) translateX(50px);
+    color: rgb(223, 107, 13);
+    transition: transform 1s ease-in-out,color 1s ease-out;
+}
 .title-section{
     margin-left: 100px;
     
@@ -769,8 +774,6 @@ footer{
         
     }
 }
-
-
 
 
 
