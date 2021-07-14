@@ -42,10 +42,20 @@ nav{
     margin-right: 20px;
     padding: 10px;
 }
+.nav-block a:hover{
+    color: red;
+    display: inline-block;
+    background-color: snow;
+    
+}
 .login-button button{
     background-color: #E02C6D;
     color: white;
     padding: 10px 24px;
+}
+.login-button button:hover{
+    background-color: rgb(100, 66, 66);
+    transition: background-color 1s ease-in;
 }
 
 /* menubar Design ended*/
@@ -54,9 +64,7 @@ nav{
 
 .header-section{
     display:grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    
+    grid-template-columns: repeat(2,1fr); 
 }
 .title{
     width: 485px;
@@ -81,6 +89,10 @@ nav{
     padding: 10px 24px;
     margin-top: 54px;
     
+}
+.title-section button:hover{
+    background-color: rgb(100, 66, 66);
+    transition: background-color .6s ease-in;
 }
 .title-section button i{
     margin-left: 5px;
